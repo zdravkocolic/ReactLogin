@@ -3,10 +3,22 @@ import fire from "./fire";
 import Login from "./Login";
 import Hero from "./Hero";
 import './App.css';
+import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
 
 
 const App = () => {
+/* uiConfig = {
+  signInFlow: "popup",
+  signInOptions: [
+    fire.auth.GoogleAuthProvider.PROVIDER_ID,
+    fire.auth.GithubAuthProvider.PROVIDER_ID
+  ],
+  callbacks: {
+    signInSuccess: () => false
+  }
+} */
+
   const [user, setUser] = useState('');
   const [email, setEmail] = useState ('');
   const [password, setPassword] = useState('');

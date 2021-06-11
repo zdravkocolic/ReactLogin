@@ -1,6 +1,7 @@
  import firebase from "firebase";
- 
 
+
+ var firebaseui = require('firebaseui');
  var firebaseConfig = {
     apiKey: "AIzaSyCH5OBzDuCzjp14JTZB1AF7NQ4dd6Xd5tI",
     authDomain: "login-1de5e.firebaseapp.com",
